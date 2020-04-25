@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(209, 209, 209);
+}
+
+.text{
+    font-size: 30px;
+    text-shadow: 2px 2px 2px rgb(160, 157, 157);
+}
+.menu {
+    position: relative;
+    float: left;
+    width: 100%;
+    padding: 0 20px;
+    border-radius: 3px;
+    background-color: gray;
+}
+.menu, .menu ul {
+		list-style: none;
+}
+
+.menu > li {
+    float: right;
+    position: relative;
+}
+
+
+.menu a {
+    display: block; 
+    position: relative;
+    z-index: 10;
+    padding: 13px 20px 13px 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    line-height: 1;
+    font-weight: 600;
+    font-size: 16px;
+    background: transparent;		
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.507);
+    transition: all .25s ease-in-out;
+
+}
+
+ .menu > li:hover > a {
+    background: rgba(0, 0, 0, 0.507);
+    color: darkgray;
+    text-shadow: none;
+}
+
+
+

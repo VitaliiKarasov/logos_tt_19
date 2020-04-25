@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Pacifico;
+    src: url(fonts/Pacifico-Regular.ttf);
+}
+
+.flex-container {
+    width: 100%;
+    height: 100vh;
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.flex-container p {
+    padding-top: 300px;
+    font-size: 100px;
+}
+
+.box {
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    color: white;
+    font-family: Pacifico;
+    text-shadow: 5px 5px 5px black;
+}
+
+.box:nth-child(1) {
+    background: linear-gradient(to bottom, #1d2b64, #f8cdda);
+}
+
+.box:nth-child(2) {
+    background: linear-gradient(to bottom, #544a7d, #ffd452);
+}
+
+.box:nth-child(3) {
+    background: linear-gradient(to bottom, #fc5c7d, #6a82fb);
+}
+
+.box:nth-child(4) {
+    background: linear-gradient(to bottom, #03001e, #7303c0, #ec38bc, #fdeff9);
+}
+
+.box:nth-child(5) {
+    background: linear-gradient(to bottom, #ed213a, #93291e);
+}
+
+.box:nth-child(6) {
+    background: linear-gradient(to bottom, #d66d75, #e29587);
+}
+
+.box:nth-child(7) {
+    background: linear-gradient(to top, #ff6e7f, #bfe9ff);
+}

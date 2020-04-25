@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(233, 231, 231);
+}
+
+ @font-face{
+    font-family:'ChronicaPro-Regular';
+    src: url(fonts/ChronicaPro-Regular.ttf);
+}
+.flex-container{
+    width: 95%;
+    height: 85vh;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: lightgrey;
+    border-radius: 18px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.Menu, a{
+    width: 25%;
+    display: flex; 
+    justify-content: center; 
+    padding-top: 18px;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(73, 73, 73);
+    position: relative;
+    left: 27%;
+}
+.box{
+   
+    width: 20%;
+    height: 35vh;
+    background-color: white;
+    border-radius: 18px;
+    margin-top: 30px;
+    margin-left: 72px;
+    
+}
+img{
+    border-radius: 90px;
+    width: 100px;
+    position: relative;
+    left: 35%;
+    margin-top: 30px;
+}
+.info{
+    text-align: center;
+    margin-top: 14%;
+}
+.data{
+    text-align: center;
+    margin-top: 22%;
+    color: rgb(153, 149, 149);
+}
+p{
+    color: rgb(153, 149, 149);
+}
+h2{
+    font-size: large;
+}
+.box:hover{
+    width: 20%;
+    height: 35vh;
+    background-color: rgb(19, 139, 179);
+    color: white;
+    transition: 0.3s;
+    
+}
+.Menu,a:hover{
+    color: rgb(15, 167, 218);
+    transition: 0.7s;
+}
+
+
+
+.box:hover::after{
+    content: "";
+    width: 55px;
+    height: 60px;
+    background-color: white;
+    position: absolute;
+    background-image: url(trash-alt.svg);
+    background-repeat: no-repeat;
+    z-index: 2;
+    margin-top: -350px;
+    margin-left: 330px;
+    border-radius: 13px;
+    
+}
+
+   
+    
+     
+
+

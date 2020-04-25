@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(233, 231, 231);
+}
+@font-face{
+    font-family:'ChronicaPro-Regular';
+    src: url(fonts/ChronicaPro-Regular.ttf);
+}
+.flex-container{
+    width: 95%;
+    height: 85vh;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: lightgrey;
+    border-radius: 18px;
+}
+.Menu, a{
+    width: 25%;
+    display: flex; 
+    justify-content: center; 
+    padding-top: 18px;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(73, 73, 73);
+    position: relative;
+    left: 27%;}
+
+table{
+   margin: 0 auto;
+   width: 65%;
+   position: relative;
+   top: 15%;
+   font-size: 30px;
+   text-align: center;
+   border-collapse: collapse;
+}
+td:first-child{
+    border-radius: 25px 0 0 25px;
+}
+
+td:last-child{
+    border-radius: 0px 25px 25px 0;
+}
+
+td{
+    height: 7vh;
+    font-size: 18px;
+    font-weight: bold;
+}
+.Menu,a:hover{
+    color: rgb(15, 167, 218);
+    transition: 0.7s;
+}
+
+tr:hover td{
+    background-color: white;
+} 
+
+.checkbox{
+    width: 20px;
+    height: 30px;
+    
+    
+}
+.fas:hover{
+   color: rgb(15, 167, 218);
+}
+
+
+.checkbox:checked{
+        box-shadow:
+          1px 1px rgb(52, 158, 194),
+          2px 2px rgb(52, 158, 194),
+          3px 3px rgb(52, 158, 194),
+          4px 4px rgb(52, 158, 194),
+          5px 5px rgb(52, 158, 194),
+          6px 6px rgb(52, 158, 194),
+          7px 7px rgb(52, 158, 194);
+        -webkit-transform: translateX(-7px);
+        transform: translateX(-7px);
+      
+}
+

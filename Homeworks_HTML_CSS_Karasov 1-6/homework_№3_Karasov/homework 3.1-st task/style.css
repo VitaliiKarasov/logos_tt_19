@@ -1,0 +1,38 @@
+.box{
+    width: 200px;
+    height: 100px;
+    background-color: aqua;
+    margin: 0 auto;
+    margin-top: 200px;
+    outline: red dashed;
+    outline-width: 1px;
+
+}
+.box1{
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+    margin: 0 auto;
+    margin-top: 10px;
+    outline: red solid;
+    outline-width: 1px;
+}
+.box2{
+    width: 200px;
+    height: 100px;
+    background-color: aqua;
+    margin: 0 auto;
+    margin-top: 23px;
+    outline: blue outset;
+    outline-width: 15px;
+
+}
+.box3{
+    width: 200px;
+    height: 100px;
+    background-color: aqua;
+    margin: 0 auto;
+    margin-top: 23px;
+    border-left: black solid;
+    border-width: 5px;
+}

@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(233, 231, 231);
+}
+ @font-face{
+    font-family:'bahij-sultannahia.ttf';
+    src: url(fonts/bahij-sultannahia.ttf);
+}
+.flex-container{
+    width: 95%;
+    height: 85vh;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: lightgrey;
+    border-radius: 18px;
+
+}
+.Menu, a{
+    width: 25%;
+    display: flex; 
+    justify-content: center; 
+    padding-top: 18px;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(73, 73, 73);
+    position: relative;
+    left: 27%;
+}
+.sideMenu{
+    width: 5%;
+    height: 55vh;
+    background-color: white;
+    border-radius: 18px;
+    position: fixed;
+    left: 5%;
+    top: 23%;
+    
+   
+    
+    
+}
+.icons{
+    display: block;
+    margin-left: 5%;
+    border-radius: 10px; 
+    position: relative;
+і}
+.icon{
+   margin-top: 95px;
+}   
+.mainPart{
+    width: 80%;
+    height: 15vh;
+    position: relative;
+    left: 14%;
+    top: 4%;
+}
+.box{
+    width: 49%;
+    height: 18vh;
+    background-color: white;
+    border-radius: 18px;
+    position: absolute;
+    padding-left: 30px;
+    padding-top: 50px;
+}
+.box1{
+    width: 50%;
+    height: 18vh;
+    background-color: white;
+    border-radius: 18px;
+    position: relative;
+    left: 50%;
+    padding-left: 30px;
+    padding-top: 50px;
+
+}
+.mainPart1{
+    width: 80%;
+    height: 57vh;
+    position: relative;
+    left: 14%;
+    top: 10%;
+    border-radius: 18px;
+}
+.box2{
+    width: 60%;
+    height: 25vh;
+    position: relative;
+    background-color: white;
+    border-radius: 18px;
+    padding-left: 30px;
+    padding-top: 80px;
+}
+.box3{
+    width: 60%;
+    height: 25vh;
+    position: relative;
+    background-color: white;
+    top: 5%;
+    border-radius: 18px;
+}
+.box4{
+    width: 38%;
+    height: 52.5vh;
+    position: absolute;
+    left: 62%;
+    bottom: 12%;
+    top: 1%;
+    background-color: white;
+    border-radius: 18px;
+    padding-left:20px ;
+}
+
+.Menu,a:hover{
+    color: rgb(15, 167, 218);
+    transition: 0.7s;
+}
+img{
+    margin-top: 5%;
+    margin-left: 15px;
+}
+.info{
+    margin-left: 18%;
+    position: relative;
+    bottom: 32%;
+}
+.info1{
+    margin-top:10%;
+    margin-left: 1%;
+}
+p{
+    color: rgb(199, 199, 199);
+}
+
+.aside_a{
+    position: relative;
+    top: 40px;
+    height: 10vh;
+    display: block;
+    overflow: hidden;
+}
+
+
+.aside_a:hover{
+    overflow: visible;
+    color: rgb(15, 167, 218);
+    transform: scale(1.5);
+}
+h3{
+    position:absolute;
+    left: 23px;
+    top: 20px;
+    font-size: 18px;
+}
