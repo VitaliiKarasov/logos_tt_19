@@ -1,0 +1,236 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.header{
+    width: 100%;
+    max-width: 1440px;
+    height: 10vh;
+    margin: 0 auto;
+   
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(236, 234, 234);
+}
+
+.suffix{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 35px;
+    position: relative;
+}
+.inner{
+    width: 100%;
+    max-width: 1440px;
+    height: 570px;
+    background-color: wheat;
+    display: flex;
+    
+}
+.featured{
+    width: 100%;
+    max-width: 1150px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 59px;
+    
+    
+}
+.screenshoots{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+    
+
+.data{
+    padding-top: 26px;
+}
+.text{
+    padding-top: 52px;
+    
+}
+.lifestyle{
+    padding-left: 381px;
+}
+ .lorem{
+     margin-top: 19px;
+ }
+ .screenshot2{
+     position: relative;
+     left: 15px;
+ }
+
+ .images{
+    width: 100%;
+    max-width: 1150px;
+    margin: 0 auto;
+    margin-top: 63px;
+    display: flex;
+    justify-content: space-between;
+ }
+ .data1{
+     padding-top: 18px;
+ }
+ .lifestyle1{
+     padding-left: 187px;
+ }
+ .text1{
+     padding-top: 22px;
+ }
+ .button{
+    width: 238px;
+    height: 42px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 63px;
+ }
+ .box2{
+     display: flex;
+     margin-top: 71px;
+ }
+ .interviews{
+     margin-top: 63px;
+    
+ }
+ .images1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 31px;
+ }
+ .data2{
+     margin-top: 9px;
+ }
+ .text2{
+     margin-top: 29px;
+ }
+ .button1{
+    width: 238px;
+    height: 42px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 38px;
+ }
+ .news{
+     margin-top: 33px;
+ }
+
+ .images2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 28px;
+ }
+ .interviews1{
+     padding-left: 178px;
+ }
+ .news1{
+     padding-left: 213px;
+ }
+ .data3{
+     margin-top: 19px;
+
+ }
+ .text3{
+     margin-top: 33px;
+
+ }
+ .button2{
+    width: 238px;
+    height: 42px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 31px;
+ }  
+ .footer{
+     width: 100%;
+     max-width: 1440px;
+     height: 10vh;
+     margin: 0 auto;
+     background-color: black;
+     margin-top: 100px;
+
+ }
+ .designedBy{
+     display: flex;
+     justify-content: center;
+     margin-top: 20px;
+ }
+
+ .iconMenu{
+     display: flex;
+     position: relative;
+     top: -30px;
+     left: 30px;
+ }
+ .datum{
+     width: 100%;
+     max-width: 500px;
+     position: relative;
+     top: -439px;
+     margin: 0 auto;
+     
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .info{
+    width: 100%;
+    max-width: 500px;
+    position: relative;
+    top: -370px;
+    margin: 0 auto;
+      
+ }
+
+ .description{
+    width: 100%;
+    max-width: 500px;
+    position: relative;
+    top: -340px;
+    margin: 0 auto;
+ }
+ .group{
+
+    position: relative;
+    top: -286px;
+    left: 109.54px;
+    
+ }
+ .issue{
+    width: 100%;
+    max-width: 500px;
+    position: relative;
+    top: -240px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+ }  
+ .groupCopy{
+
+    position: relative;
+    top: -190px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+ }

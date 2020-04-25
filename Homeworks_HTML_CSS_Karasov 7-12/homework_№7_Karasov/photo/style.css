@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: white;
+}
+
+.head{
+    position: absolute;
+    width:75% ;
+    height: 120px;
+    left: 250px;
+    top: 2px;
+    background: whitesmoke;
+    display: flex;
+}
+
+img[type="Line4"]{
+    position: absolute;
+width: 30.41px;
+height: 0px;
+left: 53px;
+top: 59.5px;
+
+border: 2px solid #000000;
+transform: rotate(46.33deg);
+}
+
+img[type="Line5"]{
+    position: absolute;
+width: 30.41px;
+height: 0px;
+left: 52px;
+top: 60px;
+
+border: 2px solid #000000;
+transform: matrix(0.69, -0.72, -0.72, -0.69, 0, 0);
+}
+
+.title{
+    position: absolute;
+width: 157px;
+height: 30px;
+left: 620px;
+top: 45.5px;
+}
+
+.figure{
+    width: 50%;
+    height: 570px;
+    position: absolute;
+    top: 120px;
+}
+.rectangle{
+    width: 50%;
+    height: 570px;
+    background-color: black;
+    position: absolute;
+    top: 120px;
+    left:50% ;
+    display: flex;
+    justify-content: space-between;
+}
+.data{
+    
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    
+    
+}
+.text{
+    position: absolute;
+    top: 100px;
+    left:520px ;
+
+}
+
+.info{
+    position: absolute;
+    top: 190px;
+    left: 100px;
+}
+.info1{
+    padding-top:35px
+}
+.button{
+    position: absolute;
+    top: 360px ;
+    left: 120px;
+}
+.container{
+    position: absolute;
+    display: flex;
+    top: 800px;
+    left: 370px
+}
+.featured{
+    position: absolute;
+    top: 750px;
+    left: 370px;
+}
+.screensho1{
+    position: absolute;
+    
+
+}
+.screenshot2{
+    position: absolute;
+    left: 610px;
+}
+.datum{
+    position: absolute;
+    top: 380px;
+}
+.lifestyle{
+    position: absolute;
+    top: 380px;
+    left: 500px;
+}
+.datumCopy{
+    position: absolute;
+    top: 380px;
+    left: 610px;
+}
+.lifestyleCopy{
+    position: absolute;
+    top: 380px;
+    left: 1110px;
+}
+.title1{
+    position: absolute;
+  top: 415px;
+    
+}
+.subtitle{
+    padding-top: 12px;
+}
+.title2{
+    padding-left: 53px;
+    margin-top: 415px;
+}
+.subtitle1{
+    padding-top: 12px;
+}
+
+ .mainbox{
+  
+     display: flex;
+     position: absolute;
+    left: 0px;
+    top: 630px;
+     
+ }
+ .box2{
+     
+     margin-left: 42px;
+ }
+ .box3{
+     margin-left:42px ;
+ }
+
+ img[type=life]{
+     padding-left:188px ;
+ }
+ .button1{
+     position: absolute;
+     top: 320px;
+     left: 480px;
+ }
+ img[type='see all']{
+     position: absolute;
+     left: 90px;
+     top: 13px;
+ }
+ .images{
+     display: flex;
+     position: absolute;
+     left: 10px;
+     top: 1030px;
+ }
+ .photos{
+     position: absolute;
+     left: -11.5px;
+ }
+ .photos1{
+     position: absolute;
+     left: 592px;
+ }
+ .issue{
+     margin-top: -230px;
+     margin-left: 120px;
+ }
+ .subscribe{
+     padding-top: 30px;
+     margin-left: 190px;
+ }
+
+ .interviews{
+     position: absolute;
+     top: 1440px;
+     left: 0px;
+ }
+ .boxes{
+     display: flex;
+     position: absolute;
+     left: 0px;
+     top: 1490px;
+ }
+ .box5{
+    margin-left: 42px;
+ }
+ .box6{
+    margin-left: 42px;
+ }
+ img[type="inter"]{
+     position: absolute;
+  margin-left: 180px
+ }
+ .information{
+     position: absolute;
+     padding-top: 17px;
+ }
+ .button2{
+    position: absolute;
+    top: 330px;
+    left: 480px;
+}
+    .new{
+        position: absolute;
+        top: 1940px;
+        left: 0px;
+}
+    
+     .boxLast{
+        display: flex;
+     position: absolute;
+     left: 0px;
+     top: 1990px;
+
+} 
+
+    .box8{
+        margin-left: 42px;
+}
+
+    .box9{
+        margin-left: 42px;
+        
+
+}
+img[type='inters']{
+    position: absolute;
+    margin-left: 214px;
+}
+.footer{
+    position: absolute;
+    width:75% ;
+    height: 120px;
+    left: 250px;
+    top: 3222px;
+    background-color: black;
+}
+.suffix{
+    position: absolute;
+    left: 650px;
+    top: 40px;
+}
+.madeby{
+    position: absolute;
+    left: 670px;
+    top: 105px;
+}
+@media screen and (min-width:970px) and (max-width:1199px){
+    .head{
+        width: 100%;
+        position: absolute;
+
+    }
+    .title{
+        position: absolute;
+left: 50%;
+ 
+
+}

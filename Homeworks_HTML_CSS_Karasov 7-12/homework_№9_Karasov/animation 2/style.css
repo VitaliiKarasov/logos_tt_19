@@ -1,0 +1,92 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: rgb(199, 230, 255);
+}
+.flex-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20%;
+}
+.blob {
+	
+	background: black;
+	border-radius: 50%;
+	margin: 10px;
+	height: 20px;
+	width: 20px;
+	position: relative;
+	
+}
+
+.blob {
+	background: black;
+	border-radius: 50%;
+	margin: 10px;
+	height: 20px;
+	width: 20px;
+	display: flex;
+
+
+	box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+	transform: scale(1);
+	animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+	}
+
+	70% {
+		transform: scale(1);
+		box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+	}
+
+	100% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+	}
+}
+.blob:nth-child(1) {
+background: white;
+
+
+}
+
+.blob:nth-child(2){
+	background: red;
+	
+}
+.blob:nth-child(3){
+	background: orange;
+}
+.blob:nth-child(4){
+	background: rgba(255, 255, 0, 0.884);
+}
+.blob:nth-child(5){
+	background: rgb(0, 183, 255);
+}
+.blob:nth-child(6){
+	background: aqua;
+}
+.blob:nth-child(7){
+	background: violet;
+}
+.blob:nth-child(8){
+	background: black;
+}
+
+
+.text{
+	position: relative;
+	left: 46%;
+	top: 350px;
+	font-size: 32px;
+	font-weight: 600;
+}

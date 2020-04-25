@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.boxes{
+    width: 70%;
+    display: flex;
+    margin-left: 16%;
+    justify-content: space-evenly;
+    position: absolute;
+    
+}
+.box{
+    display: flex;
+    width: 65px;
+    height: 123vh;
+    background-color: rebeccapurple;
+    justify-content: center;
+    opacity: 0.3;
+}
+
+.introduction{
+    position: relative;
+    display: flex;
+    left: -10px;
+}
+.text{
+    width: 40%;
+    height: 20vh;
+    position: relative;
+    left: 385px;
+}
+.rightMenu{
+   position: absolute;
+   left: 70%;
+   top: -17px;
+}
+.navItem{
+    position: relative;
+    top: 90px;
+    left: -209px;
+}
+.buttons{
+    position: relative;
+    top: 220px;
+    left: -923px;
+}
+.badge{
+    position: relative;
+    top: 410px;
+    left: -370px;
+    text-align: left;
+}
+.blog-footer{
+width: 100%;
+height: 14vh;
+background-color: lightgray;
+margin-top: 450px;
+display: flex;
+justify-content: center;
+padding-top: 50px;
+opacity: 0.4;
+  
+}
+ul, li, a {
+    color: rgb(109, 16, 109);
+}
+.jumbotron{
+    background-color: rebeccapurple;
+}
+.container{
+    color: white;
+    position: relative;
+}

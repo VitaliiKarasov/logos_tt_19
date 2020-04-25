@@ -1,0 +1,188 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: -webkit-gradient(linear, right top, left top, from(#ff8008), to(#ffc837));
+  background: linear-gradient(to left, #ff8008, #ffc837);
+}
+
+.container {
+  width: 100%;
+  height: 300px;
+  margin-top: 200px;
+  background-color: #16a7d8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.box {
+  width: 100px;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  border: 1px solid lightgrey;
+  background-color: #54c0e4;
+  z-index: 2;
+}
+
+.information {
+  white-space: nowrap;
+  margin-left: 10px;
+}
+
+.uil {
+  color: white;
+  margin-top: 100px;
+}
+
+.box:hover {
+  width: 500px;
+  background-color: white;
+  -webkit-transition: .8s;
+  transition: .8s;
+}
+
+.icont, .iconf, .iconld, .iconin, .iconyb, .icontmb, .icondb {
+  width: 100px;
+  height: 300px;
+  background: #54c0e4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.icont:hover {
+  overflow: visible;
+  width: 100px;
+  height: 300px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#36d1dc), to(#5b86e5));
+  background: linear-gradient(to bottom, #36d1dc, #5b86e5);
+  -webkit-transition: linear .8s;
+  transition: linear .8s;
+}
+
+.iconf:hover {
+  width: 100px;
+  height: 300px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#667db6), color-stop(#0082c8), color-stop(#0082c8), to(#667db6));
+  background: linear-gradient(to bottom, #667db6, #0082c8, #0082c8, #667db6);
+  -webkit-transition: linear .8s;
+  transition: linear .8s;
+}
+
+.iconld:hover {
+  width: 100px;
+  height: 300px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#9cecfb), color-stop(#65c7f7), to(#0052d4));
+  background: linear-gradient(to bottom, #9cecfb, #65c7f7, #0052d4);
+  -webkit-transition: linear .8s;
+  transition: linear .8s;
+}
+
+.iconin:hover {
+  width: 100px;
+  height: 300px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#dce35b), to(#45b649));
+  background: linear-gradient(to bottom, #dce35b, #45b649);
+  -webkit-transition: linear .8s;
+  transition: linear .8s;
+}
+
+.iconyb:hover {
+  width: 100px;
+  height: 300px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f00000), to(#dc281e));
+  background: linear-gradient(to bottom, #f00000, #dc281e);
+  -webkit-transition: linear .8s;
+  transition: linear .8s;
+}
+
+.icontmb:hover {
+  width: 100px;
+  height: 300px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#373b44), to(#4286f4));
+  background: linear-gradient(to bottom, #373b44, #4286f4);
+  -webkit-transition: linear .8s;
+  transition: linear .8s;
+}
+
+.icondb:hover {
+  width: 100px;
+  height: 300px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ec008c), to(#fc6767));
+  background: linear-gradient(to bottom, #ec008c, #fc6767);
+  -webkit-transition: linear .8s;
+  transition: linear .8s;
+}
+
+p {
+  margin-top: 10px;
+}
+
+h1 {
+  margin-top: 50px;
+}
+/*# sourceMappingURL=main.css.map */
