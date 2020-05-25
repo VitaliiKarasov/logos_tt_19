@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form{
+   display: flex;
+   justify-content: center;
+   margin-top: 90px;
+   
+}
+input{
+    width: 400px;
+    height: 30px;
+    border-radius: 10px;
+    
+}
+.click{
+    width: 320px;
+    height: 30px;
+    background-color: green;
+    border-radius: 10px;
+}
+.input3{
+    width: 60%;
+}

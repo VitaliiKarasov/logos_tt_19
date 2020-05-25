@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="signInForm">
+    <form name="f1" class="form-signin">
+      <div class="text-center mb-4 headerFirst">
+
+        <h1 class="h3 mb-3 font-weight-normal"><b>Sign In</b></h1>
+      </div>
+      <div class="form-label-group">
+        <label for="inputFirstName"><b>First Name</b></label>
+        <input type="text" name="firstName" id="inputFirstName" class="form-control" placeholder="Enter your first name"
+          aria-label="Username" aria-describedby="basic-addon1">
+      </div>
+      <div class="form-label-group">
+        <label for="inputText2"><b>Second Name</b></label>
+        <input type="text" name='secondName' id="inputText2" class="form-control" placeholder="Enter your second name"
+          aria-label="Username" aria-describedby="basic-addon1">
+      </div>
+
+
+      <div class="form-label-group">
+        <label for="inputEmail"><b>Email address</b></label>
+        <input type="email" name='email' id="inputEmail" class="form-control" placeholder="Enter your email address" required=""
+          autofocus="">
+
+      </div>
+
+      <div class="btn-group btn-group-toggle buttonManWoman" data-toggle="buttons">
+        <label class="btn btn-secondary active">
+          <input id="manChecked" class="sizeRadio people" type="radio" name="man" value="url(./img/student.png)"> man
+        </label>
+        <label class="btn btn-secondary">
+          <input class="sizeRadio people" type="radio" name="woman" value="url(./img/learning.png)"> woman
+
+        </label>
+      </div>
+      <div class="form-label-group">
+        <label for="inputEmail"><b>Position</b></label>
+        <select name="position" class="custom-select" id="inputGroupSelect01">
+          <option value="Choose">Choose</option>
+          <option value="Frontend">Frontend</option>
+          <option value="Backend">Backend</option>
+          <option value="QC/QA">QC/QA</option>
+        </select>
+      </div>
+
+
+      <div class="checkbox mb-3">
+        <label>
+          <input name="agreeChecked" type="checkbox" value="i agree"> I agree all statements in Terms of service
+        </label>
+        <button class="btn btn-lg btn-success btn-block" id="buttonSignIn" value="Reset Form" type="button"
+          disabled>Sign in</button>
+      </div>
+    </form>
+  </div>
+  <div class="peopleInformation">
+    <div class="firstColor"></div>
+    <div class="forImgPeople">
+      <div class="images">
+
+
+      </div>
+    </div>
+    <span class="infoName textSpan"> </span>
+    <span class="infoLastName textSpan"></span>
+    <p class="mail"></p>
+
+    <p class="infoPosition"></p>
+    <button type="button" id="signOut" class="btn btn-outline-success">Sign Out</button>
+    <div class="bottomColor">
+      <img class="icons" src="https://unicons.iconscout.com/release/v2.0.1/svg/line/facebook.svg" alt="facebook">
+      <img class="icons" src="https://unicons.iconscout.com/release/v2.0.1/svg/line/linkedin.svg" alt="linkedIn">
+      <img class="icons" src="https://unicons.iconscout.com/release/v2.0.1/svg/line/twitter-alt.svg" alt="twitter">
+    </div>
+  </div>
+
+  <script src="./main.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
