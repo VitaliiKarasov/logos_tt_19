@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Document</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Notable&display=swap');
+</style>
+
+<body>
+    <div class="dataAndTime">
+        <p class="data"></p>
+        <p class="time"></p>
+    </div>
+    <fieldset>
+        <div class="button">
+            <a href="#" id="start" onclick="startStopwatch()">Start</a>&nbsp;
+
+            <a href="#" id="stop" onclick="stopStopwatch()">Stop</a>&nbsp;
+
+            <a href="#" id="reset" onclick="resetStopwatch()">Reset</a>&nbsp;
+
+            <button class="loop">LOOP</button>
+            
+        </div>
+        <div class="stopWatch">
+            <span id="s_hours">00</span>:
+            <span id="s_minutes">00</span>:
+            <span id="s_seconds">00</span>:
+            <span id="s_ms">000</span>
+        </div>
+        <div class="result">
+        </div>
+    </fieldset>
+    <section>
+        <div class="minutes">
+            <span class="minute">25</span>
+            <span class="textMinute">minutes</span>
+            <button class="plus">+</button>
+            <button class="minus">-</button>
+            <div class="timer">
+                <p class="timerTime">00:00</p>
+                <button class="startTimer">START</button>
+                <button class="timerStop">STOP</button>
+                <button class="timerReset">RESET</button>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>

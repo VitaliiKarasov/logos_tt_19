@@ -1,0 +1,31 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.text{
+    font-size: 40px;
+    
+}
+.image{
+    font-size: 40px;
+    
+}
+.box{
+    width: 400px;
+    height: 400px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    margin-left: 35%;
+    margin-top: 150px;
+}
+.box1{
+    width: 131px;
+    height: 131px;
+    
+} 
+
+
