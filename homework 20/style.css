@@ -1,0 +1,61 @@
+body{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+form{
+    width: 500px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 20px;
+    
+}
+
+input{
+    height: 40px;
+    border-radius: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px solid #000;
+}
+
+button{
+    width: 200px;
+    height: 40px;
+    background-color: lightblue;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+table{
+    width: 700px;
+    border: 1px solid #000;
+    font-size: 25px;
+    border: none;
+    border-spacing: 0px;
+}
+
+th, td {
+    border-bottom: 1px solid black;
+    text-align: center;
+  }
+
+.edit{
+    width: 50px;
+    height: 30px;
+    background-color: lightblue;
+}
+
+.delete{
+    width: 70px;
+    height: 30px;
+    background-color:  rgba(0, 0, 0, 0.596);
+    color: white;
+}
+
+.editUser{
+    background-color: rgba(241, 144, 15, 0.822);
+    display: none;
+}
