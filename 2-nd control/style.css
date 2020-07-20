@@ -1,0 +1,202 @@
+header {
+	width: 100%;
+	height: 100px;
+	background-color: rgba(0, 0, 0, 0.26);
+	background-size: 100%;
+}
+
+.buttonDiv {
+	display: flex;
+	justify-content: center;
+	width: 60%;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+
+.text {
+	width: 100%;
+	min-height: 100vh;
+	padding: 20px 20px 20px 20px;
+	background-size: cover;
+}
+
+.dropdown-item {
+	cursor: pointer;
+}
+
+.rgbColors {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.blockColors {
+	width: 60px;
+	height: 60px;
+	background-size: 100%;
+	margin-bottom: 5px;
+	border-radius: 5px;
+}
+
+.blockColors:nth-child(1) {
+	background-color: rgb(5, 161, 115);
+}
+
+.blockColors:nth-child(2) {
+	background-color: rgb(8, 83, 42);
+}
+
+.blockColors:nth-child(3) {
+	background-color: rgb(32, 163, 32);
+}
+
+.blockColors:nth-child(4) {
+	background-color: rgb(51, 41, 194);
+}
+
+.blockColors:nth-child(5) {
+	background-color: rgb(23, 21, 121);
+}
+
+.blockColors:nth-child(6) {
+	background-color: rgb(95, 7, 73);
+}
+
+.blockColors:nth-child(7) {
+	background-color: rgb(71, 7, 90);
+}
+
+.blockColors:nth-child(8) {
+	background-color: rgb(54, 32, 54);
+}
+
+.blockColors:nth-child(9) {
+	background-color: rgb(21, 12, 56);
+}
+
+.blockColors:nth-child(10) {
+	background-color: rgb(187, 154, 6);
+}
+
+.blockColors:nth-child(11) {
+	background-color: rgb(255, 153, 0);
+}
+
+.blockColors:nth-child(12) {
+	background-color: rgb(226, 102, 0);
+}
+
+.blockColors:nth-child(13) {
+	background-color: rgb(170, 35, 35);
+}
+
+.blockColors:nth-child(14) {
+	background-color: rgb(136, 30, 30);
+}
+
+.blockColors:nth-child(15) {
+	background-color: rgb(211, 71, 36);
+}
+
+.blockColors:nth-child(16) {
+	background-color: rgb(255, 0, 0);
+}
+
+.blockColors:nth-child(17) {
+	background-color: rgb(255, 255, 255);
+	border: 1px solid rgb(202, 206, 204);
+}
+
+.blockColors:nth-child(18) {
+	background-color: rgb(196, 195, 196);
+}
+
+.blockColors:nth-child(19) {
+	background-color: rgb(104, 108, 109);
+}
+
+.blockColors:nth-child(20) {
+	background-color: rgb(51, 51, 51);
+}
+
+.blockColors:nth-child(21) {
+	background-color: rgb(2, 2, 2);
+}
+
+.backgroundColors {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	display: none;
+}
+
+.blockWithPhoto {
+	width: 120px;
+	height: 60px;
+	margin-bottom: 7px;
+	border-radius: 5px;
+}
+
+.blockWithPhoto:nth-child(1) {
+    background: url(photos/adventure-calm-clouds-dawn-414171.jpg) no-repeat;
+	background-size: 120px;
+}
+
+.blockWithPhoto:nth-child(2) {
+	background: url(photos/blue-sky-clear-sky-cold-fog-346529.jpg);
+	background-size: 120px;
+}
+
+.blockWithPhoto:nth-child(3) {
+	background: url(photos/flight-landscape-nature-sky-36717.jpg);
+	background-size: 120px;
+}
+
+.blockWithPhoto:nth-child(4) {
+	background: url(photos/flock-of-birds-917494.jpg);
+	background-size: 120px;
+}
+
+.blockWithPhoto:nth-child(5) {
+	background: url(photos/gray-bridge-and-trees-814499.jpg);
+	background-size: 120px;
+}
+
+.blockWithPhoto:nth-child(6) {
+	background: url(photos/mirror-lake-reflecting-wooden-house-in-middle-of-lake-147411.jpg);
+	background-size: 120px;
+}
+
+.blockWithPhoto:nth-child(7) {
+	background: url(photos/person-on-a-bridge-near-a-lake-747964.jpg);
+	background-size: 120px;
+}
+
+.blockWithPhoto:nth-child(8) {
+	background: url(photos/road-landscape-nature-forest-39811.jpg);
+	background-size: 120px;
+}
+
+.blockWithPhoto:nth-child(9) {
+	background: url(photos/seaport-during-daytime-132037.jpg);
+	background-size: 120px;
+}
+
+#filesForBackground {
+	display: none;
+}
+
+.buttonDivForTable {
+	display: flex;
+	justify-content: center;
+	display: none;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+
+.textConstructor {
+	width: 100%;
+	min-height: 100vh;
+	padding: 20px 20px 20px 20px;
+	background-size: cover;
+}
