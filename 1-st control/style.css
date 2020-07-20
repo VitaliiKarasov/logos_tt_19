@@ -1,0 +1,264 @@
+*{
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+section {
+	min-height: 650px;
+	width: 60%;
+	margin: 30px auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+.header {
+	display: flex;
+	min-width: 100%;
+	min-height: 300px;
+	background-color: grey;
+	background-size: cover;
+	position: relative;
+	border-radius: 5px 5px;
+}
+.blockForTableAndList {
+	min-height: 300px;
+	width: 60%;
+	background-color:gray;
+	margin: 30px auto;
+	size: cover;
+	display: none;
+	position: relative;
+	flex-wrap: wrap;
+	border-radius: 5px 5px;
+}
+.tableAndListCheckbox {
+	display: flex;
+	width: 100%;
+	height: 100px;
+	margin: 15px 0 0 20px;
+}
+.blockList {
+	flex-wrap: wrap;
+	width: 100%;
+	min-height: 200px;
+	display: flex;
+	justify-content: space-around;
+	display: none;
+}
+
+.blockTable {
+	width: 100%;
+	min-height: 400px;
+	display: flex;
+	justify-content: space-around;
+	display: none;
+	flex-wrap: wrap;
+}
+
+#formList {
+	width: 94%;
+}
+
+#formTable {
+	width: 94%;
+}
+
+#widthBorderId {
+	display: flex;
+	width: 100%;
+}
+#liClass {
+	width: 700px;
+}
+
+#markClass {
+	width: 700px;
+}
+
+.paragraphs {
+	padding: 20px 20px 10px 30px;
+}
+.panel {
+	width: 100%;
+	min-height: 300px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: grey;
+	background-size: cover;
+	border-radius: 5px 5px;
+}
+
+.buttons {
+	width: 60%;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#edit {
+	margin-right: 5px;
+}
+.edit-panel {
+	display: flex;
+	justify-content: flex-start;
+	width: 100%;
+	height: 100%;
+	display: none;
+	flex-wrap: wrap;
+	position: relative;
+}
+
+.formForArea{
+	display: flex;
+	justify-content: flex-start;
+	width: 100%;
+	height: 10%;
+	flex-wrap: wrap;
+}
+#area {
+	display: flex;
+	width: 90%;
+	height: 80%;
+}
+.style-panel {
+	width: 94%;
+	height: 100%;
+	display: none;
+}
+textarea {
+	width: 90%;
+	height: 60%;
+	margin: 20px 5% 0 5%;
+}
+
+#fontStyleInput {
+	width: 50%;
+}
+
+.paragraphForStylePanel {
+	margin: 10px 0 3px 0;
+}
+
+.sizeRadio {
+	margin-left: 20px;
+}
+.rgbColors {
+	width: 180px;
+	height: 180px;
+	position: absolute;
+	display: none;
+	margin-left: 200px;
+	flex-wrap: wrap;
+}
+
+.newButtons {
+	margin: 0px 5% 3% 5%;
+}
+
+#add {
+	margin-top: 10px;
+}
+
+#save {
+	margin-top: 10px;
+}
+
+.blockColors {
+	width: 60px;
+	height: 60px;
+	background-size: 100%;
+}
+
+.blockColors:nth-child(1) {
+	background-color: rgb(204, 31, 31);
+}
+
+.blockColors:nth-child(2) {
+	background-color: rgb(54, 54, 209);
+}
+
+.blockColors:nth-child(3) {
+	background-color: rgb(13, 153, 13);
+}
+
+.blockColors:nth-child(4) {
+	background-color: rgb(10, 10, 10);
+}
+
+.blockColors:nth-child(5) {
+	background-color: rgb(241, 212, 43);
+}
+
+.blockColors:nth-child(6) {
+	background-color: palevioletred;
+}
+
+.blockColors:nth-child(7) {
+	background-color: white;
+}
+
+.blockColors:nth-child(8) {
+	background-color: rgb(175, 22, 175);
+}
+
+.blockColors:nth-child(9) {
+	background-color: rgb(29, 123, 151);
+}
+
+.rgbColorsBackground {
+	width: 180px;
+	height: 180px;
+	background-size: 100%;
+	position: absolute;
+	display: none;
+	margin-left: 200px;
+	flex-wrap: wrap;
+}
+
+.blockColorsBackground {
+	width: 60px;
+	height: 60px;
+	background-size: 100%;
+}
+
+.blockColorsBackground:nth-child(1) {
+	background-color: rgb(204, 31, 31);
+}
+
+.blockColorsBackground:nth-child(2) {
+	background-color: rgb(54, 54, 209);
+}
+
+.blockColorsBackground:nth-child(3) {
+	background-color: rgb(13, 153, 13);
+}
+
+.blockColorsBackground:nth-child(4) {
+	background-color: rgb(10, 10, 10);
+}
+
+.blockColorsBackground:nth-child(5) {
+	background-color: rgb(241, 212, 43);
+}
+
+.blockColorsBackground:nth-child(6) {
+	background-color: palevioletred;
+}
+
+.blockColorsBackground:nth-child(7) {
+	background-color: white;
+}
+
+.blockColorsBackground:nth-child(8) {
+	background-color: rgb(175, 22, 175);
+}
+
+.blockColorsBackground:nth-child(9) {
+	background-color: rgb(29, 123, 151);
+}

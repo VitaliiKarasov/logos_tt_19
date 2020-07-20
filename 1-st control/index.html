@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="main">
+        <div class="header">
+
+            <div class="paragraphs text">
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+        </div>
+
+        <div class="buttons">
+            <button class="btn btn-secondary" id="edit">Edit</button>
+            <button class="btn btn-dark" id="style">Style</button>
+        </div>
+        <div class="panel">
+
+            <div class="edit-panel">
+                <form name="f0" class="formForArea">
+                    <textarea class="form-control" name="area" id="area" cols="30" rows="10"></textarea>
+                </form>
+                <div class="newButtons">
+                    <button class="btn btn-danger" id="add">add</button>
+                    <button class="btn btn-success" id="save">save</button>
+                </div>
+
+
+            </div>
+            <div class="style-panel">
+                <form action="" name="f1">
+                    <h6 class="paragraphForStylePanel">Font size:</h6>
+                    <input type="radio" name="tr" value="12px"> 12px
+                    <input class="sizeRadio" type="radio" name="tr" value="14px"> 14px
+                    <input class="sizeRadio" type="radio" name="tr" value="16px" checked> 16px
+                    <input class="sizeRadio" type="radio" name="tr" value="18px"> 18px
+                    <input class="sizeRadio" type="radio" name="tr" value="20px"> 20px
+                </form>
+                <form name="f2">
+                    <h6 class="paragraphForStylePanel">Font Family:</h6>
+                    <select name="fontFamily" class="custom-select" id="fontStyleInput">
+                        <option value="" selected>Choose option</option>
+                        <option value="Cursive">Cursive</option>
+                        <option value="Fantasy">Fantasy</option>
+                        <option value="Monospace">Monospace</option>
+                        <option value="Sens-serif">Sens-serif</option>
+                    </select>
+                </form>
+                <div class="colorButtons">
+                    <h6 class="paragraphForStylePanel">Colors:</h6>
+                    <button class="btn btn-secondary" id="colorOfText">Color of Text</button>
+                    <button class="btn btn-secondary" id="backgroundColor">Background color</button>
+                </div>
+                <form action="" name="f4">
+                    <h6 class="paragraphForStylePanel">Style:</h6>
+                    <input type="checkbox" name="bold" value="bold"> Bold text
+                    <input type="checkbox" name="italic" value="italic"> Cursive text
+                </form>
+
+            </div>
+            <div class="rgbColors">
+                <div id="blockColors1" class="blockColors" :></div>
+                <div id="blockColors2" class="blockColors"></div>
+                <div id="blockColors3" class="blockColors"></div>
+                <div id="blockColors4" class="blockColors"></div>
+                <div id="blockColors5" class="blockColors"></div>
+                <div id="blockColors6" class="blockColors"></div>
+                <div id="blockColors7" class="blockColors"></div>
+                <div id="blockColors8" class="blockColors"></div>
+                <div id="blockColors9" class="blockColors"></div>
+            </div>
+            <div class="rgbColorsBackground">
+                <div id="blockColors1Enother" class="blockColorsBackground"></div>
+                <div id="blockColors2Enother" class="blockColorsBackground"></div>
+                <div id="blockColors3Enother" class="blockColorsBackground"></div>
+                <div id="blockColors4Enother" class="blockColorsBackground"></div>
+                <div id="blockColors5Enother" class="blockColorsBackground"></div>
+                <div id="blockColors6Enother" class="blockColorsBackground"></div>
+                <div id="blockColors7Enother" class="blockColorsBackground"></div>
+                <div id="blockColors8Enother" class="blockColorsBackground"></div>
+                <div id="blockColors9Enother" class="blockColorsBackground"></div>
+            </div>
+        </div>
+
+    </section>
+    <div class="blockForTableAndList">
+        <div class="tableAndListCheckbox">
+            <form action="" name="tableAndListBlock">
+                <h2>Choose what you want:</h2>
+
+                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                    <label class="btn btn-secondary active">
+                        <input class="sizeRadio" type="radio" name="table"> Table
+                    </label>
+                    <label class="btn btn-secondary">
+                        <input class="sizeRadio" type="radio" name="list"> List
+                    </label>
+
+                </div>
+
+
+            </form>
+        </div>
+        <div class="blockTable">
+            <form name="tableForm" id="formTable">
+
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroup-sizing-default">Count TR:</span>
+                    </div>
+                    <input id="trCount" name='tr' type="text" placeholder="Count TR:" class="form-control"
+                        aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                </div>
+
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroup-sizing-default">Count TD:</span>
+                    </div>
+                    <input id="tdCount" name='td' type="text" placeholder="Count TD:" class="form-control"
+                        aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                </div>
+                <h4>Add style to your table:</h4>
+
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroup-sizing-default">Width of TD:</span>
+                    </div>
+                    <input id="tdWidth" name='wtd' type="text" placeholder="Width of TD:" class="form-control"
+                        aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                </div>
+
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroup-sizing-default">Height of TD:</span>
+                    </div>
+                    <input id="tdHeight" name='htd' type="text" placeholder="Height of TD:" class="form-control"
+                        aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                </div>
+
+                <div class="input-group mb-3" id='widthBorderId'>
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroup-sizing-default">Width of border:</span>
+                    </div>
+                    <input id="widthBorder" name='width' type="text" placeholder="Width" class="form-control"
+                        aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+
+                    <div class="input-group-prepend">
+                        <label class="input-group-text" for="inputGroupSelect01">Color of border:</label>
+                    </div>
+                    <select name="colorBorder" class="ColorOfBorder custom-select" id="inputGroupSelect01">
+                        <option value="black">black</option>
+                        <option value="red">red</option>
+                        <option value="blue">blue</option>
+                        <option value="green">green</option>
+                    </select>
+
+                    <div class="input-group-prepend">
+                        <label class="input-group-text" for="inputGroupSelect01">Type of border:</label>
+                    </div>
+                    <select name="typeBorder" class="typeOfBorder custom-select" id="inputGroupSelect01">
+                        <option value="solid">solid</option>
+                        <option value="dashed">dashed</option>
+                        <option value="dotted">dotted</option>
+                        <option value="hidden ">hidden</option>
+                    </select>
+            </form>
+
+        </div>
+        <div><button class="createTable butt btn btn-success" id="buttonTable">Create table</button></div>
+
+    </div>
+
+
+
+    <div class="blockList list">
+        <form name="listForm" id="formList">
+            <div class="input-group mb-3 countLiClass">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon1">Count Li:</span>
+                </div>
+                <input id="liClass" name='amount' type="text" class="form-control" placeholder="Count Li:"
+                    aria-label="Count Li:" aria-describedby="basic-addon1">
+            </div>
+
+
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <label class="input-group-text" for="inputGroupSelect01">Type of marks:</label>
+                </div>
+                <select class="custom-select" name="typeOfMarker" id="markClass">
+                    <option value="circle" selected>circle</option>
+                    <option value="disc">disc</option>
+                    <option value="square">square</option>
+                </select>
+            </div>
+
+        </form>
+        <div><button class="createList btn btn-success">Create list</button></div>
+    </div>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
